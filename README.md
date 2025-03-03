@@ -24,19 +24,24 @@ This project analyzes the IMDB Movies dataset to uncover trends, popular genres,
 
 - What libraries are required for this project, and why are they useful in data analysis?
 - Load the dataset. What is the shape of the dataset? What does each row and column represent?
+
 **2. Data Overview and Basic Exploration**
 - Use .info() to understand the data types and missing values. What potential issues can you spot?
 - Describe the main characteristics of each column using .describe(). What can you infer from the mean, median, and distribution of numerical columns?
+
 **3. Data Cleaning**
 - Which columns contain missing values? How would you handle them?
 - Are there any columns where data types need conversion (e.g., date, ratings)? Explain your decision.
+
 **4. Univariate Analysis**
 - Analyze the distribution of IMDB ratings (score) using a histogram and describe its shape
 - What are the most common genres in the dataset? Use a bar chart to show their distribution.
+
 **5. Bivariate Analysis**
 - Explore the relationship between budget_x and revenue using a scatter plot.
 - Compare IMDB ratings (score) across Country using a boxplot.
 - Is there a correlation between the number of votes a movie received and its rating? Create a scatter plot and calculate the correlation coefficient. What can you conclude?
+
 **6. Genre-Specific Analysis**
 - Which genre has the highest average rating? Calculate the average rating for each genre and plot the results.
 - How does the popularity of genres vary over time? Plot the number of movies released per genre each year.
@@ -56,6 +61,7 @@ This project analyzes the IMDB Movies dataset to uncover trends, popular genres,
 **9. Insights and Summary**
 - Summarize three major insights from the analysis regarding movie trends, genre popularity, and factors affecting movie success.
 - Propose additional questions or datasets that could enhance the analysis.
+
 **Additional Questions Based on Dataset**
 - Which countries produce the highest-rated movies on average?
 - Does the original language (orig_lang) correlate with ratings?
@@ -66,7 +72,6 @@ This project analyzes the IMDB Movies dataset to uncover trends, popular genres,
 - *NumPy*: Numerical computations
 - *Matplotlib*: Data visualization
 - *Seaborn*: Advanced visualization
-
 
 
 
